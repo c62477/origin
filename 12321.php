@@ -11,11 +11,11 @@
             if (isset($tmpMap[$item[$pid]])) {
                 $tmpMap[$item[$pid]][$son][] = &$tmpMap[$item[$id]];
             } else {
-                $tree[] = &$tmpMap[$item[$id]];
+                $tree[] = &123$tmpMap[$item[$id]];
             }
         }
         unset($tmpMap);
 
         return $tree;
-    }
+    }asdasd
     //2132112333333333
